@@ -28,6 +28,7 @@ header{
    color: var(--font-color-two);
    background: rgba(0, 0, 0, 0.8);
    backdrop-filter: blur(10px);
+   border-bottom:1px solid rgba(255,255,255,.08);
 
    display: flex;
    justify-content: space-around;
@@ -38,6 +39,7 @@ header{
 
    position: fixed;
    top: 0;
+   z-index:1000;
 }
 
 #header_box h1{
@@ -79,7 +81,7 @@ header{
 #header_box button:hover{
     transform: translateY(-5px);
     
-    box-shadow: 0 0 3px var(--primary);
+    box-shadow: 0 0 18px var(--primary);
 }
 
 
