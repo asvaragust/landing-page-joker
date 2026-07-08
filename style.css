@@ -46,7 +46,7 @@ header{
     font-size: 2.5em;
 }
 
-#header_box a{
+#navbar a{
     padding: 10px;
 
     text-decoration: none;
@@ -58,7 +58,7 @@ header{
     transition: 0.3s;
 }
 
-#header_box a:hover{
+#navbar a:hover{
     color: var(--font-color-one);
 }
 
@@ -83,6 +83,53 @@ header{
     
     box-shadow: 0 0 18px var(--primary);
 }
+
+#dropdown{
+    display: none;
+
+    transition: 0.3s;
+}
+
+#dropdown:hover{
+    color: var(--primary);
+
+    #dropdown_menus{
+        display: block;
+    }
+}
+
+#dropdown_menus{
+    position: fixed;
+    display: none;
+}
+
+#dropdown a{
+    display: block;
+    padding: 10px;
+
+    font-size: 1.4em;
+    text-decoration: none;
+
+    color: var(--font-color-two);
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    transition: 0.3s;
+
+}
+
+#dropdown a:hover{
+    background: rgba(0, 0, 0, 0.95);
+
+    color: var(--primary);
+}
+
+
+
+
+
+
 
 
 

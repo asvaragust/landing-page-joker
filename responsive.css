@@ -1,5 +1,9 @@
-@media (max-width: 1400px) {
-    #header_box a{
+@media (max-width: 1400px){
+    #navbar a{
         display: none;
     }
-}
+
+    #dropdown{
+        display: block;
+    }
+}   
