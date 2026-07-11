@@ -17,7 +17,23 @@
     }
 
     #hero {
-        transform: scale(1);
+        transform: scale(0.8);
+    }
+    
+    #about{
+        font-size: 0.5em;
+    }
+
+    #features{
+        height: 140vh;
+    }
+
+    #gallery{
+        height: 140vh;
+    }
+
+    #characters{
+        height: 180vh;
     }
 }   
 
@@ -41,6 +57,40 @@
 
     #hero{
         flex-direction: column;
+        height: 1400px;
+    }
+
+    #about{
+        height: 1400px;
+    }
+    
+    #about_head{
+        transform: scale(0.5);
+        margin-bottom: 0;
+    }
+
+    #about_body{
+        transform: scale(0.5);
+    }
+
+    #about_body{
+        flex-direction: column  ;
+        height: 1400px;
+    }
+
+    #features{
+        height: 2000px;
+    }
+
+    #gallery{
+        height: 2000px;
+    }
+
+    #characters{
+        height: 2200px;
+    }
+
+    #datas{
         height: 1400px;
     }
 }
